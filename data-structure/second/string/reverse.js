@@ -28,11 +28,21 @@ function reverse2(str) {
 // console.log(reverse2('galib'))
 // console.log(reverse2('asadullah'))
 
-
 function reverse3(str) {
   return str.split("").reverse().join("");
 }
-console.log(reverse3('apple'))
-console.log(reverse3('galib'))
-console.log(reverse3('asadullah'))
+console.log(reverse3("apple"));
+console.log(reverse3("galib"));
+console.log(reverse3("asadullah"));
 
+function reverse4(srt) {
+  let reversed = "";
+  for (let character of srt) {
+    reversed = character + reversed;
+  }
+  return reversed;
+}
+
+console.log(reverse4("apple"));
+console.log(reverse4("galib"));
+console.log(reverse4("asadullah"));
