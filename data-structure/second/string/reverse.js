@@ -31,9 +31,9 @@ function reverse2(str) {
 function reverse3(str) {
   return str.split("").reverse().join("");
 }
-console.log(reverse3("apple"));
-console.log(reverse3("galib"));
-console.log(reverse3("asadullah"));
+// console.log(reverse3("apple"));
+// console.log(reverse3("galib"));
+// console.log(reverse3("asadullah"));
 
 function reverse4(srt) {
   let reversed = "";
@@ -43,6 +43,24 @@ function reverse4(srt) {
   return reversed;
 }
 
-console.log(reverse4("apple"));
-console.log(reverse4("galib"));
-console.log(reverse4("asadullah"));
+// console.log(reverse4("apple"));
+// console.log(reverse4("galib"));
+// console.log(reverse4("asadullah"));
+
+function reverse5(srt) {
+  return srt.split("").reduce((reversed, character) => {
+    return character + reversed;
+  }, "");
+}
+
+// console.log(reverse5('apple'))
+// console.log(reverse5('galib'))
+// console.log(reverse5('asadullah'))
+
+const reverse6 = (srt) => {
+  return srt.split("").reduce((rev, char) => char + rev, "");
+};
+
+console.log(reverse6("apple"));
+console.log(reverse6("galib"));
+console.log(reverse6("asadullah"));
