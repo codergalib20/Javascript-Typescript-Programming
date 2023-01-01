@@ -44,6 +44,6 @@ const [m, , [k, l]] = nested;
 
 console.log(m, k, l);
 
-const [p, q, r] = [8, 9];
+const [p, q = 22, r = 20] = [8, 9];
 
 console.log(p, q, r);
