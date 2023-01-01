@@ -2,8 +2,11 @@ const resturant = {
   name: "Classico Italiano",
   location: "Via Angelo Tavanti 23, Firenze, Italy",
   categories: ["Italian", "Pizzaria", "Vigetarian"],
-  startMenu: ["Foccaccia", "Bruschetta", "Garlic", "Bread", "Caprese sa;ad"],
+  starterMenu: ["Foccaccia", "Bruschetta", "Garlic", "Bread", "Caprese sa;ad"],
   mainMenu: ["Pizza", "Pasta", "Risatta"],
+  order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.starterMenu[mainIndex]];
+  },
 };
 
 const arr = [2, 3, 4];
@@ -25,4 +28,6 @@ console.log(main, secondary);
 // console.log(main, secondary);
 
 [main, secondary] = [secondary, main];
-console.log(main, secondary)
+console.log(main, secondary);
+
+console.log(resturant.order(2, 0));
