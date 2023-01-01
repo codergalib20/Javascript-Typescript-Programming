@@ -23,6 +23,30 @@ const resturant = {
   },
 };
 
-const {name, openingHours, categories} = resturant;
+const { name, openingHours, categories } = resturant;
 
 console.log(name, openingHours, categories);
+
+const {
+  name: resturantName,
+  openingHours: hours,
+  categories: tags,
+} = resturant;
+console.log(resturantName, hours, tags);
+
+// set default value for an object
+const { menu = [], starterMenu: starters = [] } = resturant;
+
+console.log(menu, starters);
+
+// Mutating variables || change variable value;
+let a = 111;
+let b = 999;
+const obj = { a: 23, b: 7, c: 14 };
+
+({ a, b } = obj);
+console.log(a, b);
+
+// Nested Objects
+const { fri } = openingHours;
+console.log(fri);
