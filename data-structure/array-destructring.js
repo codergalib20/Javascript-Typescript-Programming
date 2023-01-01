@@ -32,5 +32,11 @@ console.log(main, secondary);
 
 console.log(resturant.order(2, 0));
 
-const [starter, mainCourse] = resturant.order(2,0);
+const [starter, mainCourse] = resturant.order(2, 0);
 console.log(starter, mainCourse);
+
+// ------------ Nested array
+const nested = [2, 4, [5, 6]];
+
+const [i, , j] = nested;
+console.log(i, j);
