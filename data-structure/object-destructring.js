@@ -21,7 +21,19 @@ const resturant = {
   order: function (starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.starterMenu[mainIndex]];
   },
+  orderDelivery: function ({ time, adress, starterIndex, mainIndex }) {
+    console.log(
+      `Order receive! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivery to ${adress} at ${time}`
+    );
+  },
 };
+
+resturant.orderDelivery({
+  time: "22:30",
+  adress: "VIa del Sole, 21",
+  mainIndex: 2,
+  starterIndex: 2,
+});
 
 const { name, openingHours, categories } = resturant;
 
