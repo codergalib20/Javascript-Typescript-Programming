@@ -9,7 +9,11 @@ const restaurant = {
   menu: [1, 2, 3, 4, 4, 5],
   members: ["Rifat", "Forhad", "Galib", "Mazidul"],
 };
-
+const newArr2 = {
+  ...restaurant,
+  founder: "Asadullah Hil Galib",
+};
+console.log(newArr2);
 const newArr = ["Badhon", ...restaurant.members];
 
 console.log(newArr);
