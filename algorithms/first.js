@@ -22,4 +22,4 @@ function findMemo(array) {
 }
 
 
-findMemo(memo)
+findMemo(everyone)
