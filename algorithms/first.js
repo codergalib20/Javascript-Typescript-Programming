@@ -9,7 +9,7 @@ const everyone = [
   "mazidul",
   "mamun",
 ];
-const large = new Array(100).fill('nemo');
+const large = new Array(10000).fill('nemo');
 
 function findMemo(array) {
   let t0 = performance.now();
