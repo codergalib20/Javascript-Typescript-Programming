@@ -10,3 +10,15 @@ document.getElementById('message').innerHTML ='<span>This is get element by id</
 document.querySelector('h2').textContent = 'Welcome to text content'
 
 document.querySelector('.message').innerText = 'Welcome to inner Text class message'
+console.log('Input field > ', document.querySelector('input').value = '012345678');
+
+
+// document.querySelector('button').addEventListener('click', () => {
+//     document.querySelector('input').value = '';
+//     // document.querySelector('input').value = 'sdfsd';
+// })
+
+// document.querySelector('button').addEventListener('click', function () {
+    // console.log(this);
+// })
+
