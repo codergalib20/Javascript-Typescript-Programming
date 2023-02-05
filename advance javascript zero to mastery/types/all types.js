@@ -5,4 +5,5 @@ console.log(typeof undefined);
 console.log(typeof null);
 console.log(typeof Symbol('just me'));
 console.log(typeof {});
-console.log(typeof Object())
+console.log(typeof Object());
+console.log(typeof []); 
