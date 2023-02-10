@@ -23,6 +23,21 @@ class MyArray {
     this.length--;
     return item;
   }
+
+  // Delete method in javascript
+  delete(index) {
+    const item = this.data[index];
+    this.shiftItems(index);
+  }
+
+  // Custom shift method in javascript
+  shiftItems(index) {
+    for (let i = index; i < this.length; i++) {
+      this.data[i] = this.data[i + 1];
+    }
+    delete this.data[this.length - 1];
+    this.length--;
+  }
 }
 
 const newArray = new MyArray();
@@ -31,4 +46,5 @@ newArray.push("How!");
 newArray.push("Are ");
 newArray.push("You");
 newArray.pop();
+newArray.delete(1);
 console.log(newArray);
