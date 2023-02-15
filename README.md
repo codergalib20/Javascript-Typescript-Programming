@@ -1,6 +1,9 @@
 # programming 
 # USING - Javascript | Typescript | Nodejs
 
+<!-- instanceof -->
+
+
 [String]()
 </br>
 [Number]()
