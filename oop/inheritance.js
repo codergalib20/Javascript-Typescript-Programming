@@ -12,3 +12,6 @@ class Elf {
 const fiona = new Elf('Fiona', 'ninja stars');
 const ogre = {...fiona};
 console.log(ogre);
+
+console.log(ogre.__proto__)
+console.log(fiona.__proto__)
