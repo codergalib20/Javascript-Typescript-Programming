@@ -11,3 +11,4 @@ do {
 } while (isRunning)
 
 
+console.log(isRunning);
