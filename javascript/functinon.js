@@ -17,4 +17,4 @@ const friend3 = "Peter";
 const friends = ["Micheal", "Steven", "Peter"];
 const years = new Array();
 console.log(years);
-console.log(friends);
+console.log(friends[friends.length - 1]);
