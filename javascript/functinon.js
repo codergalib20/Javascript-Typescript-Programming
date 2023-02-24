@@ -10,11 +10,18 @@
 //   }
 // };
 
-const firend1 = "Michael";
-const firend2 = "Steven";
-const friend3 = "Peter";
+// const firend1 = "Michael";
+// const firend2 = "Steven";
+// const friend3 = "Peter";
 
-const friends = ["Micheal", "Steven", "Peter"];
-const years = new Array();
-console.log(years);
-console.log(friends[friends.length - 1]);
+// const friends = ["Micheal", "Steven", "Peter"];
+// const years = new Array();
+// console.log(years);
+// console.log(friends[friends.length - 1]);
+
+
+const calcAge = function (birthYear) {
+    return 2022 - birthYear
+}
+
+console.log(calcAge(2005))
