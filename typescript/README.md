@@ -41,3 +41,10 @@ user.forEach((prop) => {
 ```
 
 <img src="https://raw.githubusercontent.com/codergalib20/Javascript-Typescript-Programming/main/assets/all-types.png" alt="All Types name in typescript">
+
+## Types
+
+```
+- unknown type
+- boolean
+```
