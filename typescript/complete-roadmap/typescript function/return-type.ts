@@ -26,3 +26,4 @@ function anything(student: any): any {
 }
 
 console.log(anything("Galib"));
+
