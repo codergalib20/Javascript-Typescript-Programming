@@ -47,4 +47,5 @@ user.forEach((prop) => {
 ```
 - unknown type
 - boolean
+- number
 ```
