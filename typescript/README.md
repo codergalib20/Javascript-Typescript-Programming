@@ -48,4 +48,5 @@ user.forEach((prop) => {
 - unknown type
 - boolean
 - number
+- bigin type
 ```
