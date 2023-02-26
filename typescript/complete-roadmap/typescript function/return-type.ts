@@ -14,3 +14,15 @@ function logged(name: string): void {
 }
 
 logged("Asadullah Hil Galib");
+
+function isTrue(age: number): boolean {
+  return age > 30;
+}
+
+console.log(isTrue(33));
+
+function anything(student: any): any {
+  return student;
+}
+
+console.log(anything("Galib"));
