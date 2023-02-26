@@ -39,4 +39,4 @@ user.forEach((prop) => {
 
 ```
 
-<img src="/assets/all-types.png" alt="All Types name in typescript">
+<img src="https://raw.githubusercontent.com/codergalib20/Javascript-Typescript-Programming/main/assets/all-types.png" alt="All Types name in typescript">
