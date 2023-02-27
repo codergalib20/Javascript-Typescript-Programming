@@ -29,3 +29,22 @@
 // console.log(hero2.whoAreYou());
 // const hero3 = new Hero("Hi!");
 // console.log(hero3.whoAreYou());
+
+// function factory(name) {
+//   return {
+//     name: name,
+//   };
+// }
+
+// function C() {
+//   this.a = 1;
+// }
+// const c = new C();
+// const c1 = new C();
+// const c2 = new C();
+
+function C2() {
+  this.a = 1;
+  return { b: 2 };
+}
+const c = new C2();
