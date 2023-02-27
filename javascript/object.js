@@ -133,14 +133,17 @@ let number = new Number(111.3434);
 
 
 
-function C() {
-    this.a = 1;
-    return false;
-}
-console.log(typeof new C());
+// function C() {
+//     this.a = 1;
+//     return false;
+// }
+// console.log(typeof new C());
 
 
 
+let c = [1,2, [1,2]];
+c.sort();
+console.log(c);
 
 
 
