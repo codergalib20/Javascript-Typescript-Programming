@@ -76,18 +76,21 @@ let number = new Number(111.3434);
 /*==========================================================
 =========================String===========================
 ==========================================================*/
-const srt1 = 'Galib';
-console.log(srt1[2]);
-const srt2 = new String('Galib');
-console.log(srt1[2]);
-console.log('potatoes'.length);
-console.log('potatoes'.charCodeAt(2));
-console.log('potatoes'.indexOf('o'));
-console.log('potatoes'.includes('ta'));
-console.log('potatoes'['potatoes'.length -1]);
+// const srt1 = 'Galib';
+// console.log(srt1[2]);
+// const srt2 = new String('Galib');
+// console.log(srt1[2]);
+// console.log('potatoes'.length);
+// console.log('potatoes'.indexOf('o'));
+// console.log('potatoes'.includes('ta'));
+// console.log('potatoes'['potatoes'.length -1]);
 /*==========================================================
-==========================================================
+=========================Boolean==========================
 ==========================================================*/
+// console.log(Boolean("n"));
+// console.log(Boolean(""));
+// console.log(Boolean(new String("")));
+// console.log(String([1, 2, 3]) === [1, 2, 3].toString());
 /*==========================================================
 ==========================================================
 ==========================================================*/
