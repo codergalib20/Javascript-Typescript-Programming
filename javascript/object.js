@@ -43,8 +43,15 @@
 // const c1 = new C();
 // const c2 = new C();
 
-function C2() {
-  this.a = 1;
-  return { b: 2 };
-}
-const c = new C2();
+// function C2() {
+//   this.a = 1;
+//   return { b: 2 };
+// }
+// const c = new C2();
+
+// let ninja = {
+//   name: "Ninja",
+//   say: function () {
+//     return "I am a " + this.name;
+//   },
+// };
