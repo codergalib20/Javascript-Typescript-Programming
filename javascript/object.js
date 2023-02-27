@@ -63,13 +63,15 @@
 let n = Number("10.10");
 // console.log(typeof n); -> number
 
-let n1 = new Number('12.12');
+let n1 = new Number("12.12");
 // tyepof n1 -> number
 
 // console.log(Number.MAX_VALUE);
 // console.log(Number.MIN_VALUE)
-console.log(Number.isFinite())
+// console.log(Number.isFinite())
 
+let number = new Number(111.3434);
+// console.log(n.toFixed(2)); -> 111.34
 
 /*==========================================================
 ==========================================================
