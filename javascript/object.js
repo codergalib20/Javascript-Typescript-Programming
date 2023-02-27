@@ -91,8 +91,15 @@ let number = new Number(111.3434);
 // console.log(Boolean(""));
 // console.log(Boolean(new String("")));
 // console.log(String([1, 2, 3]) === [1, 2, 3].toString());
-console.log('Potatoes'.toUpperCase());
-console.log('Potatoes'.toLowerCase());
+// console.log('Potatoes'.toUpperCase());
+// console.log('Potatoes'.toLowerCase());
+console.log('potatoes'.substring(3));
+console.log('potatoes'.slice(2, 4));
+console.log('potatoes is my, favorite'.split(''))
+console.log('potatoes is my, favorite'.split(' '))
+console.log('potatoes is my, favorite'.split(','))
+console.log('potatoes is my, favorite'.split('t'))
+console.log('potatoes is my, favorite'.split('e'))
 /*==========================================================
 ==========================================================
 ==========================================================*/
