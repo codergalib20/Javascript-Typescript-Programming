@@ -30,8 +30,17 @@
 // //   rating: 4,
 // // };
 
-
 // const newtoy = new Gadget('Webcam', 'black');
 // console.log(newtoy)
 // console.log(newtoy.getInfo())
 
+// function Gadget(name) {
+//   this.name = name;
+// }
+// ;
+console.log(Gadget.prototype.name = 'mirror');
+// const toy = new Gadget('camera');
+// console.log(toy.name);
+// console.log(toy.hasOwnProperty('name'));
+// console.log(delete toy.name);
+// console.log(toy.name);
