@@ -143,6 +143,7 @@ let number = new Number(111.3434);
 
 let c = [1,2, [1,2]];
 c.sort();
+c.join('--')
 console.log(c);
 
 
