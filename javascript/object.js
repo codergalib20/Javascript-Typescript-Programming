@@ -80,6 +80,11 @@ const srt1 = 'Galib';
 console.log(srt1[2]);
 const srt2 = new String('Galib');
 console.log(srt1[2]);
+console.log('potatoes'.length);
+console.log('potatoes'.charCodeAt(2));
+console.log('potatoes'.indexOf(4));
+console.log('potatoes'.includes('ta'));
+console.log('potatoes'['potatoes'.length -1]);
 /*==========================================================
 ==========================================================
 ==========================================================*/
