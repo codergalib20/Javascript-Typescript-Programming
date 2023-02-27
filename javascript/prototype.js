@@ -38,9 +38,27 @@
 //   this.name = name;
 // }
 // ;
-console.log(Gadget.prototype.name = 'mirror');
+// console.log(Gadget.prototype.name = 'mirror');
 // const toy = new Gadget('camera');
 // console.log(toy.name);
 // console.log(toy.hasOwnProperty('name'));
 // console.log(delete toy.name);
 // console.log(toy.name);
+
+let params = {
+  productId: 666,
+  section: "products",
+};
+
+let url = "http://example.org/page.php?",
+  i,
+  query = [];
+
+for (i in params) {
+  query.push(i + "=" + params[i]);
+}
+
+url += query.join("&");
+
+console.log(url);
+console.log(query);
