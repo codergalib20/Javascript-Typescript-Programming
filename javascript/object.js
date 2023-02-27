@@ -109,16 +109,6 @@ let number = new Number(111.3434);
 // console.log(s.match(/a/g))
 // console.log(s.match(/j.*a/i))
 
-
-
-
-
-
-
-
-
-
-
 /*==========================================================
 =======================Exercises===========================
 ==========================================================*/
@@ -131,29 +121,28 @@ let number = new Number(111.3434);
 // const o = F();
 // console.log(o)
 
-
-
 // function C() {
 //     this.a = 1;
 //     return false;
 // }
 // console.log(typeof new C());
 
+// let c = [1,2, [1,2]];
+// c.sort();
+// c.join('--')
+// console.log(c);
 
+// function myString(str) {
+//   return str;
+// }
 
-let c = [1,2, [1,2]];
-c.sort();
-c.join('--')
-console.log(c);
+// let s = new myString("hello");
 
-
-
-
-
-
-
-
-
+// console.log(s.length);
+// console.log(s[0]);
+// console.log(s.toString());
+// console.log(s.valueOf());
+// console.log(s.charAt(1));
 
 /*==========================================================
 ==========================================================
