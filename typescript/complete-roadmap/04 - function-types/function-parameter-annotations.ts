@@ -14,3 +14,12 @@ greet("Galib");
 // greet(17); // -> "Error"
 // greet(true); // -> "Error"
 // greet({name : "Galib"}) // -> "Error"
+
+function isRegular(regular: boolean) {
+  return `Galib is a ${regular ? "regular" : "irregular"}`;
+}
+
+isRegular(true);
+isRegular(false);
+// isRegular("regular"); // -> "Error"
+// isRegular(17); // -> "Error"
