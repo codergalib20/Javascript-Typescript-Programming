@@ -61,4 +61,3 @@ for (i in params) {
 url += query.join("&");
 
 console.log(url);
-console.log(query);
