@@ -2,15 +2,14 @@ function sum(a, b) {
   return a + b;
 }
 
-function sumOfArray(array) {
+function sumOfArray(arr) {
   let sum = 0;
-
-  for (let i = 0; i < array.length; i++) {
-    sum += array[i];
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
   }
-  console.log(sum);
+  return sum;
 }
 
-sumOfArray();
+// sumOfArray();
 
 module.exports = { sum, sumOfArray };
