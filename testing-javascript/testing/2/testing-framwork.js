@@ -17,6 +17,16 @@ expected = 4;
 // }
 expect(result).toBe(expected);
 
+function test(title, callback) {
+  try {
+    callback();
+    console.log(`✔️ ${title}`);
+  } catch (error) {
+    console.error(`❌ ${title}`);
+    console.error(error);
+  }
+}
+
 function expect(actual) {
   return {
     toBe(expected) {
