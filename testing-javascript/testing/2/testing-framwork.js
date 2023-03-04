@@ -24,5 +24,7 @@ function expect(actual) {
         throw new Error(`${actual} is not equal to ${expected}`);
       }
     },
+    toEqual(expected) {},
+    toBeGreaterThan(expected) {},
   };
 }
