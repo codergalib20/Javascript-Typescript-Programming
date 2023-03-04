@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/codergalib20/programming/issues"
   },
-  "homepage": "https://github.com/codergalib20/programming#readme"
+  "homepage": "https://github.com/codergalib20/programming#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
 }
