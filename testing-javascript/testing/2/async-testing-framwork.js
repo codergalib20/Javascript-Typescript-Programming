@@ -1,7 +1,7 @@
 const { subtractAsync, sumAsync } = require("./math");
 
 async function substractTest() {
-  const result = await subtractAsync(7, 3);
+  const result = await subtractAsync(3, 7);
   const expected = 10;
   expect(result).toBe(expected);
 }
