@@ -8,7 +8,7 @@ if (result !== expected) {
   throw new Error(`${result} is not equal to ${expected}`);
 }
 
-result = substruction(7, 3);
+result = substruction(8, 3);
 
 expected = 4;
 
