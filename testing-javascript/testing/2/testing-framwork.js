@@ -2,20 +2,25 @@ const { subtract, sum } = require("./math");
 
 let result, expected;
 
-result = sum(3, 7);
-
-expected = 10;
+function sumTest() {
+  result = sum(3, 7);
+  expected = 10;
+  expect(result).toBe(expected);
+}
+test("sum adds numbers", sumTest);
 // if (result !== expected) {
 //   throw new Error(`${result} is not equal to ${expected}`);
 // }
-expect(result).toBe(expected);
 
-result = subtract(7, 3);
-expected = 4;
+function subtractTest() {
+  result = subtract(7, 3);
+  expected = 4;
+  expect(result).toBe(expected);
+}
+test("subtract subtracts numbers", subtractTest);
 // if (result !== expected) {
 //   throw new Error(`${result} is not equal to ${expected}`);
 // }
-expect(result).toBe(expected);
 
 function test(title, callback) {
   try {
@@ -29,7 +34,7 @@ function test(title, callback) {
 
 function expect(actual) {
   return {
-    toBe(expected) {
+    toBe(expected) { 
       if (actual !== expected) {
         throw new Error(`${actual} is not equal to ${expected}`);
       }
