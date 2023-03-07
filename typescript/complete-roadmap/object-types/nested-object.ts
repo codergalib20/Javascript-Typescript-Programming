@@ -22,5 +22,4 @@ const mySong = {
   },
 };
 calculatePayout(mySong);
-
 printSong(mySong);
