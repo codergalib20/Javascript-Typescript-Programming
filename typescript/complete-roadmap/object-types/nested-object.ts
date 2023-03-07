@@ -12,7 +12,7 @@ function printSong(song: Song): void {
   console.log(`${song.title} - ${song.artist}`);
 }
 
-calculatePayout({
+const mySong = {
   title: "Unchaied Melody",
   artist: "Righteous Brothers",
   numStreams: 343434,
@@ -20,4 +20,7 @@ calculatePayout({
     producer: "Phil spector",
     writer: "Alex North",
   },
-});
+};
+calculatePayout(mySong);
+
+printSong(mySong);
