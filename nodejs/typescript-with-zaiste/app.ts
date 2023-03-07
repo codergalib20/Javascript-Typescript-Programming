@@ -1,3 +1,1 @@
-let message: string = "Hello world";
-
-console.log(message);
+import http from "http";
