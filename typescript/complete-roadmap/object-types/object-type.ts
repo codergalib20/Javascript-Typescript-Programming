@@ -6,7 +6,7 @@
 // }
 
 function printName(person: { first_name: string; last_name: string }): void {
-    console.log(`My name is ${person.first_name} ${person.last_name}`);    
+  console.log(`My name is ${person.first_name} ${person.last_name}`);
 }
 
-console.log(printName({"Galib", "goin"}));
+printName({ first_name: "Galib", last_name: "Goin" });
