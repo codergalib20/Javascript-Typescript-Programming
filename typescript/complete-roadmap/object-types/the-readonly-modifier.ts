@@ -9,5 +9,5 @@ const user: User = {
 };
 
 console.log(user.id);
-user.id = 3434;
+// user.id = 3434; // This code give me error cause i can't edit readonly id
 user.username = "codergalib";
