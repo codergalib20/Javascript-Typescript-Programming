@@ -13,4 +13,4 @@ function same(arr1: number[], arr2: number[]) {
   }
 }
 
-console.log(same([2, 3, 4, 52], [3, 4, 5]));
+console.log(same([2, 3, 4, 52], [3, 4, 5, 5]));
