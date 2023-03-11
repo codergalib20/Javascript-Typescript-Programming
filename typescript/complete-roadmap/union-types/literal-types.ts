@@ -15,4 +15,4 @@ const giveAnswer = (answer : "yes" | "no" | "maybe" ) => {
 giveAnswer("no"); // ✔️ The answer is no.
 
 // CAN't provide anything else
-giveAnswer("oh boy I'm not sure"); // ❌ It will show error
+giveAnswer("oh boy I'm not sure");  // ❌ It will show error
