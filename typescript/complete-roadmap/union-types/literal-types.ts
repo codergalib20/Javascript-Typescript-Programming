@@ -16,3 +16,12 @@ giveAnswer("no"); // ✔️ The answer is no.
 
 // CAN't provide anything else
 giveAnswer("oh boy I'm not sure");  // ❌ It will show error
+
+
+
+let mood : "Happy" | "Sad" = "Happy";
+
+mood = "ok" // It will show error
+
+mood = "Sad" // Acceptable
+mood = "sad" // Not Acceptable
