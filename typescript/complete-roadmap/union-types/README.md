@@ -18,3 +18,7 @@ guessAge("28"); // ✔️
 // CAN'T pass something else
 guessAge({age: 32}); // ❌
 ```
+
+###
+
+- Type Narrowing
