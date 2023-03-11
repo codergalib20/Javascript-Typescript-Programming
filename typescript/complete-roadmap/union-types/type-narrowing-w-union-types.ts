@@ -5,11 +5,10 @@ function printAge(age: number | string): void {
 printAge(32);
 printAge("34");
 
-function calculateTax(price: number | string, tax: number): number | void {
+function calculateTax(price: number | string, tax: number): number {
   //   return price * tax;
   if (typeof price === "string") {
-    price.replace("$", "");
-  } else {
-    return price * tax;
+    price = parseFloat(price.replace("$", ""));
   }
+  return price * tax;
 }
