@@ -19,4 +19,5 @@ type Loc = {
   long: number;
 };
 
-
+let coordinates: Point | Loc = { x: 1, y: 42 };
+coordinates = { lat: 343.43, long: 343434 };
