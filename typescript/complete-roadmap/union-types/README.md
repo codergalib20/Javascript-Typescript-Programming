@@ -22,3 +22,21 @@ guessAge({age: 32}); // ❌
 ###
 
 - Type Narrowing
+- Literal Types
+
+### Literal types are not just types - but the values themselves too!
+
+On it's own, that's not super helpful. But combine it with something like unions and you can have very fine-tuned type options for Typescript to enforce.
+
+```
+// A function with a literal+union type parameter
+const giveAnswer = (answer : "yes" | "no" | "maybe" ) => {
+    return `The answer is ${answer}.`;
+}
+
+// CAN provide one of the literals in the union
+giveAnswer("no"); // ✔️ The answer is no.
+
+// CAN't provide anything else
+giveAnswer("oh boy I'm not sure"); // ❌ It will show error
+```
