@@ -5,4 +5,4 @@ function sumOfArray(arr: number[]) {
   return rest;
 }
 
-console.log(sumOfArray([3, 3, 5]));
+console.log(sumOfArray([2, 3, 5]));
