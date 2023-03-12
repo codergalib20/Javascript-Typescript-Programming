@@ -1,4 +1,4 @@
-const arr: number[] = [23, 3, 4, 5,1, 2, 323, 4, 34, 2, 33, 2];
+const arr: number[] = [23, 3, 4, 5, 1, 2, 323, 4, 34, 2, 33, 2];
 
 const findHigherAndLowerNumber = (arr: number[]) => {
   // defind higher and lower variable
