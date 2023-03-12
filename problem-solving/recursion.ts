@@ -15,11 +15,14 @@
 // countDown(21);
 
 function sumOfNumber(n: number): number {
-  let sum = 0;
-  for (let i = n; i > 0; i--) {
-    sum += i;
-  }
-  return sum;
+  //   let sum = 0;
+  //   for (let i = n; i > 0; i--) {
+  //     sum += i;
+  //   }
+  //   return sum;
+
+  if (n < 0) return 0;
+  return n + sumOfNumber(n - 1);
 }
 
-console.log(sumOfNumber(10))
+console.log(sumOfNumber(10));
