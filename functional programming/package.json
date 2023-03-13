@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node functional-composition.ts"
+    "start": "ts-node function-composition.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191"
   }
 }
