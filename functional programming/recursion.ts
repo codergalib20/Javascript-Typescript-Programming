@@ -9,4 +9,4 @@ function factorial(n: number): number {
 }
 
 
-console.log(factorial(5))
+console.log(factorial(5)) // Output 120
